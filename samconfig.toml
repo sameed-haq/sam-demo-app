@@ -1,6 +1,6 @@
 version = 0.1
 
-[ptest.deploy.parameters]
+[default.deploy.parameters]
 stack_name = "hello-world-sam-ptest"
 region = "ap-south-1"
 s3_bucket = "sameed-imp-eng"
