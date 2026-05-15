@@ -6,6 +6,6 @@ region = "ap-south-1"
 s3_bucket = "sameed-imp-eng"
 s3_prefix = "hello-world-sam/ptest"
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "Environment=ptest"
+parameter_overrides = "Environment=ptests"
 confirm_changeset = false
 fail_on_empty_changeset = false
