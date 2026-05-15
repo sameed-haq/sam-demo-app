@@ -1,0 +1,11 @@
+version = 0.1
+
+[ptest.deploy.parameters]
+stack_name = "hello-world-sam-ptest"
+region = "ap-southeast-2"
+s3_bucket = "auspost-sam-artifacts-nonprod-ap-southeast-2"
+s3_prefix = "hello-world-sam/ptest"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "Environment=ptest"
+confirm_changeset = false
+fail_on_empty_changeset = false
